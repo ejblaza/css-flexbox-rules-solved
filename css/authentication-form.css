@@ -13,7 +13,7 @@ body {
 .content {
   padding: 30px;
   display: flex;
-  gap: 30px;
+  gap: 40px;
 }
 
 h2 {
@@ -82,7 +82,7 @@ input[type="submit"]:hover {
   background: #294bbb;
 }
 
-.form select {
+select {
   height: 30px;
 }
 
@@ -99,8 +99,8 @@ input[type="submit"]:hover {
   gap: 6px;
 }
 
-.stay-signed-in,
-.gender-label {
+.form-checkbox-control > label,
+.form-radio-control > label {
   font-weight: normal;
 }
 
@@ -113,4 +113,13 @@ input[type="submit"]:hover {
   display: flex;
   flex-direction: column;
   gap: 30px;
+}
+
+.form-group-horizontal-control {
+  display: flex;
+  gap: 30px;
+}
+
+.form-group-horizontal-control > .form-input-control {
+  flex: 1;
 }
